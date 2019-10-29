@@ -1,0 +1,34 @@
+.day {
+  page-break-inside: avoid;
+}
+
+.section {
+  /* display:fle */
+  page-break-inside: avoid;
+}
+
+.entry {
+  display: flex;
+  font-size: 15px;
+  /* color: red; */
+}
+
+.title {
+  flex: 1 1 auto;
+  align: left;
+  /* width: 50%; */
+}
+
+.name {
+  flex: 0 0 auto;
+  align: right;
+  /* width: 50%; */
+}
+
+.cover-page {
+  font-family: sans-serif;
+  page-break-inside: avoid;
+
+  /* font-weight: normal; */
+
+}
